@@ -13,7 +13,7 @@ public class Test {
 	@ResponseBody
 	@GetMapping("/test")
 	public HttpStatus string(){
-		return HttpStatus.ACCEPTED;
+		return HttpStatus.OK;
 				
 	}
 }
